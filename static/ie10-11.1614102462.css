@@ -1,0 +1,33 @@
+/*
+Wonder.Legal 2016
+FIXES IE10-11
+
+*/
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	
+	.account-pages .standard-form .item input.datepicker {
+		padding: 0 10px 20px 35px !important;
+		line-height: auto !important;
+		height: auto !important;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	   color: #888888;
+	}
+}
+
+/*
+.large.btn, 
+.btn-large:hover,
+a.large.btn, 
+a.btn-large:hover {
+	padding: 0.7em !important;
+}
+*/
+
+.large.btn, 
+.btn-large:hover,
+a.large.btn, 
+a.btn-large:hover {
+	padding: 0.7em 1.7em !important;
+}
